@@ -1,5 +1,5 @@
-function display(value){
-    document.getElementById("result").value+=value;
+function display(mark){
+    document.getElementById("result").value+=mark;
 }
  function clearResult() {
       document.getElementById("result").value = "";
